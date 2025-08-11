@@ -9,7 +9,7 @@ export const Navbar = () => {
         <div className="flex justify-between items-center p-8 h-full">
           {/* Logo */}
           <div className="text-2xl font-bold text-black">
-            <a href="/" className="hover:text-gray-500">
+            <a href="#home" className="hover:text-gray-500">
               Welcome
             </a>
           </div>
