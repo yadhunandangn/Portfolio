@@ -57,7 +57,8 @@ export const Contact = () => {
               id="name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg
+              focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Your Name"
               required
             />
@@ -71,7 +72,8 @@ export const Contact = () => {
               id="email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg
+              focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Your Email"
               required
             />
@@ -84,7 +86,8 @@ export const Contact = () => {
               id="message"
               value={formData.message}
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg
+              focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Your Message"
               rows="4"
               required
@@ -92,7 +95,8 @@ export const Contact = () => {
           </div>
           <button
             type="submit"
-            className="w-full px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-all"
+            className="w-full px-6 py-3 bg-black text-white rounded-lg
+             hover:bg-gray-800 transition-all"
           >
             Send Message
           </button>

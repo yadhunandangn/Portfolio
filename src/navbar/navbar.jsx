@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -10,15 +9,14 @@ export const Navbar = () => {
         <div className="flex justify-between items-center p-8 h-full">
           {/* Logo */}
           <div className="text-2xl font-bold">
-            <span  className="hover:text-gray-500">
-              Welcome
-            </span>
+            <span className="hover:text-gray-500">Welcome</span>
           </div>
 
           {/* Hamburger / Close icon (Mobile) */}
           <button
-            className="w-7 h-5 relative cursor-pointer z-40 md:hidden text-2xl"
+            className="w-7 h-7 relative cursor-pointer z-60 md:hidden text-3xl leading-none"
             onClick={() => setIsOpen(!isOpen)}
+            aria-label="Toggle Menu"
           >
             {isOpen ? "✕" : "☰"}
           </button>
@@ -45,9 +43,10 @@ export const Navbar = () => {
       </div>
 
       <div
-        className={`fixed right-0 h-auto w-64  bg-gradient-to-br from-gray-100 to-gray-300 ${
-          isOpen ? "translate-x-0" : "hidden translate-x-full"
-        }`}
+        className={`fixed top-16 right-0 bottom-0 w-64 bg-gradient-to-br
+          from-gray-100 to-gray-300 shadow-lg transition-transform duration-300 ease-in-out z-50 ${
+            isOpen ? "translate-x-0" : "translate-x-full"
+          }`}
       >
         <div className="p-6 space-y-4">
           <a
