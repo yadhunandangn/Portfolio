@@ -43,7 +43,7 @@ export const Navbar = () => {
       </div>
 
       <div
-        className={`fixed top-16 h-auto right-0  w-64 bg-gradient-to-br
+        className={`fixed top-24 h-auto right-0 rounded-2xl w-64 bg-gradient-to-br
           from-gray-100 to-gray-300 shadow-lg transition-transform duration-300 ease-in-out z-50 ${
             isOpen ? "translate-x-0" : "translate-x-full"
           }`}

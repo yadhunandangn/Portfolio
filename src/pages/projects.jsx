@@ -66,6 +66,8 @@ export const Project = () => {
                   onClick={(e) => e.preventDefault()}
                 >
                   View Project
+                  <br />
+                  <span className="md:hidden" >(⚠️Will deploy soon)</span>
                 </a>
                 <span
                   className="absolute left-1/2 top-12 -translate-x-1/2 whitespace-nowrap
