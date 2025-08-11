@@ -25,7 +25,7 @@ export const About = () => {
           <img
             src={Yadhu}
              alt="Yadhunandan GN"
-            className="w-40 h-40 md:w-68 md:h-68 rounded-full object-cover border-4 border-gray-300 shadow-md"
+            className="w-40 h-40 md:w-64 md:h-64 rounded-full object-cover border-4 border-gray-300 shadow-md"
           />
 
           {/* Text */}
