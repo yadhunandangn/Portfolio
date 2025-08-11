@@ -2,6 +2,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
+import Yadhu from "../assets/Yadhu.jpeg";
 
 export const About = () => {
   return (
@@ -22,7 +23,7 @@ export const About = () => {
         <div className="flex flex-col md:flex-row items-center md:items-start gap-6 mt-6">
           {/* Image */}
           <img
-            src={`${import.meta.env.BASE_URL}Yadhu.jpg`}
+            src={Yadhu}
              alt="Yadhunandan GN"
             className="w-40 h-40 md:w-68 md:h-68 rounded-full object-cover border-4 border-gray-300 shadow-md"
           />
