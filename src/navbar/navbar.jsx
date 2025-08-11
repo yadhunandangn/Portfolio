@@ -9,7 +9,7 @@ export const Navbar = () => {
       <div className="container mx-auto">
         <div className="flex justify-between items-center p-8 h-full">
           {/* Logo */}
-          <div className="text-2xl font-bold text-black">
+          <div className="text-2xl font-bold">
             <span  className="hover:text-gray-500">
               Welcome
             </span>
