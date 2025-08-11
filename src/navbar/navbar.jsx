@@ -81,7 +81,7 @@ export const Navbar = () => {
           </a>
           <a
             href="#contact"
-            className="block py-2 link-hover"
+            className=" py-2 link-hover"
             onClick={() => setIsOpen(false)}
           >
             Contact Me
